@@ -24,32 +24,56 @@
       </div>
 
 
-      <form>
+      <form class="needs-validation" novalidate>
         
         <div class="mb-3">
             <label for="name" class="form-label">Nombre </label>
-            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" autocomplete="on" required>
+            <input type="text" class="form-control" id="name" autocomplete="on" required>
             <div class="valid-feedback">
-                Looks good!
+                correcto!
+              </div>
+            <div class="invalid-feedback">
+                Es necesario rellenar correctamente el campo
               </div>
           </div>
+
         <div class="mb-3">
           <label for="email" class="form-label">Email </label>
-          <input type="email" class="form-control form-label" id="email" aria-describedby="emailHelp" autocomplete="on" >
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else :)</div>
+          <input type="email" class="form-control form-label" id="email" aria-describedby="emailHelp" autocomplete="on" required>
+          <div class="valid-feedback">
+            correcto!
+          </div>
+        <div class="invalid-feedback">
+            Es necesario rellenar correctamente el campo
+          </div>
         </div>
+
+
         <div class="mb-3">
           <label for="password1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="password1">
+          <input type="password" class="form-control" id="password1" required>
+          <div class="valid-feedback">
+            correcto!
+          </div>
+        <div class="invalid-feedback">
+            Es necesario rellenar correctamente el campo
+          </div>
         </div>
+        </div>
+
         <div class="mb-3">
             <label for="password2" class="form-label">Repetir contraseña</label>
-            <input type="password" class="form-control" id="password2">
+            <input type="password" class="form-control" id="password2" required>
+            <div class="valid-feedback">
+              correcto!
+            </div>
+          <div class="invalid-feedback">
+              Es necesario rellenar correctamente el campo
+            </div>
           </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
+          </div>
+
+       
         <button type="submit" class="btn btn-primary" id="submitBtn">Enviar</button>
         <button type="reset" class="btn btn-primary" >Borrar</button>
       </form>
