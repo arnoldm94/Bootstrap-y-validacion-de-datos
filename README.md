@@ -13,7 +13,7 @@ decir ahorrandonos tiempo y tambien de forma ordenada.
 
 A continuacion adjunto el link de la presentacion:
 
-[Presentación de Bootstrap](/Bootstrap-y-validacion-de-datos/Bootstrap_Presentacion.odp) por Arnold Melet
+[Presentación de Bootstrap](https://docs.google.com/presentation/d/1LuVLGeVt1AJSXoQxFJhRcBYks5Nm4nh0tdLFDar01x4/edit?usp=sharing) por Arnold Melet
 
 :+1::+1::+1::+1:
 
