@@ -21,12 +21,14 @@ function caja(){
 
     const user = JSON.parse(localStorage.getItem('user')) 
     nuevoarray.push (user)
-  /*  nuevoarray.forEach(element => { */
-   
+    console.log(nuevoarray.nombre);
+    
+nuevoarray.forEach(element => { 
+   const array = nuevoarray[3]
        card_header.innerText = "Usuario"
-       li_list1.innerText = "Nombre: " + nuevoarray[1]
-       li_list2.innerText = "Email: " + nuevoarray[0]
-       console.log(nuevoarray[1]);
+       li_list1.innerText = "Nombre: " + array
+       li_list2.innerText = "Email: " 
+ 
        
       document.body.appendChild(card)
        card.appendChild(card_header)
@@ -34,6 +36,6 @@ function caja(){
        ul_list.appendChild(li_list1)
        ul_list.appendChild(li_list2)
        document.body.appendChild(document.createElement("p"))
-/*    });
- */
+    });
+
 }
